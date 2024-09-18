@@ -91,7 +91,9 @@ This project demonstrates a complete picking task using a Panda robot arm equipp
 
 3. **Pick-and-Place Task**  
    The transformed coordinates are fed into the MoveIt pipeline, which generates a motion plan for the Panda robot arm. The arm grasps the cylinder and places it in the designated goal pose.
-![Pick-and-Place Task](https://github.com/user-attachments/assets/ae455c09-df8d-48a1-978c-c6304873cc88)
+<video src="https://github.com/user-attachments/assets/ae455c09-df8d-48a1-978c-c6304873cc88" controls="controls" style="max-width: 100%;">
+</video>
+
 
 ---
 
