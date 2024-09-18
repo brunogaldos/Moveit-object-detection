@@ -82,7 +82,8 @@ This project demonstrates a complete picking task using a Panda robot arm equipp
 
 1. **Object Detection**  
    The RealSense D435 camera is used to capture RGB-D data, and the object detection script identifies the circular surface of the cylindrical object in the scene. The script outputs the detected object's pose in the camera frame.
-![object_from_up](https://github.com/user-attachments/assets/4a07e7ad-8019-4e86-a526-a98ad4af61f4)
+![Screenshot from 2024-09-18 12-09-35](https://github.com/user-attachments/assets/13014819-d283-439b-9388-cbee4c51d01d)
+
 
 2. **Coordinate Transformation**  
    The detected object's pose is transformed from the camera's coordinate frame to the robot's coordinate frame using appropriate TF (transform) methods.
@@ -90,7 +91,7 @@ This project demonstrates a complete picking task using a Panda robot arm equipp
 
 3. **Pick-and-Place Task**  
    The transformed coordinates are fed into the MoveIt pipeline, which generates a motion plan for the Panda robot arm. The arm grasps the cylinder and places it in the designated goal pose.
-[Screencast from 09-17-2024 07:24:48 PM.webm](https://github.com/user-attachments/assets/ae455c09-df8d-48a1-978c-c6304873cc88)
+![Pick-and-Place Task](https://github.com/user-attachments/assets/ae455c09-df8d-48a1-978c-c6304873cc88)
 
 ---
 
